@@ -1,0 +1,78 @@
+header {
+    height: 35%;
+    text-align: center;
+    font-size: 56px;
+    padding: 25px 0;
+    margin: 5px;
+    color: white;
+    background-image: url("../images/questionmarks.jpg");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center
+}
+
+body {
+    background-color: rgb(169, 211, 211);
+    padding: 25px 0;
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("../images/coloredbeakers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+
+#start {
+    border-radius: 15%;
+    padding: 2px 0;
+    margin: 4px 0;
+    width: 20%x;
+    height: 45px;
+    font-size: 24px;
+    background-color: rgb(211, 211, 151);
+}
+
+#results {
+    font-size: 24px;
+    justify-content: center;
+    padding: 25px;
+    margin: 5px;
+    /*background-color: rgb(226, 226, 164);*/
+}
+
+#questions,
+#options {
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    background-color: rgb(201, 162, 201);
+}
+
+p {
+    background-color: rgb(214, 214, 145);
+    color: rgb(7, 7, 6);
+    font-size: 36px;
+    font: 'Fira Sans', sans-serif;
+    font-style: bold
+}
+
+input {
+    margin: .4rem;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-info {
+    background-color: aliceblue;
+}
+
+.btn-danger {
+    background-color: red;
+}
